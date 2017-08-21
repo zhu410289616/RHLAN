@@ -1,0 +1,28 @@
+PODS:
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - RHSocketKit/Core (2.2.3.1):
+    - CocoaAsyncSocket (~> 7.4.3)
+  - RHSocketKit/Extend (2.2.3.1):
+    - RHSocketKit/Core
+
+DEPENDENCIES:
+  - libextobjc/EXTScope (~> 0.4.1)
+  - RHSocketKit/Extend (~> 2.2.3.1)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  RHSocketKit: ded3d5f2b55873c1b6df2eeaeb05582dee64e5e9
+
+PODFILE CHECKSUM: f0cfecfdc2676f78a94ef4fe5802d6b474481a9f
+
+COCOAPODS: 1.2.1

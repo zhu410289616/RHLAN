@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D162EECD8AF89ED2123D034 /* libPods-RHLANClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 060E49E8C097B5681D4A6482 /* libPods-RHLANClient.a */; };
+		83A7DA231F4B223C006442B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7DA221F4B223C006442B8 /* main.m */; };
+		83A7DA261F4B223C006442B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7DA251F4B223C006442B8 /* AppDelegate.m */; };
+		83A7DA291F4B223C006442B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7DA281F4B223C006442B8 /* ViewController.m */; };
+		83A7DA2C1F4B223C006442B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A7DA2A1F4B223C006442B8 /* Main.storyboard */; };
+		83A7DA2E1F4B223C006442B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A7DA2D1F4B223C006442B8 /* Assets.xcassets */; };
+		83A7DA311F4B223C006442B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A7DA2F1F4B223C006442B8 /* LaunchScreen.storyboard */; };
+		83A7DA3D1F4B2943006442B8 /* RHLANClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7DA3C1F4B2943006442B8 /* RHLANClient.m */; };
+		83A7DA401F4B32A8006442B8 /* RHLANHeartbeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A7DA3F1F4B32A8006442B8 /* RHLANHeartbeat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060E49E8C097B5681D4A6482 /* libPods-RHLANClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RHLANClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1088908B8E94BD5891F946A6 /* Pods-RHLANClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHLANClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-RHLANClient/Pods-RHLANClient.release.xcconfig"; sourceTree = "<group>"; };
+		83A7DA1E1F4B223C006442B8 /* RHLANClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHLANClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A7DA221F4B223C006442B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A7DA241F4B223C006442B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83A7DA251F4B223C006442B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83A7DA271F4B223C006442B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83A7DA281F4B223C006442B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83A7DA2B1F4B223C006442B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A7DA2D1F4B223C006442B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A7DA301F4B223C006442B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A7DA321F4B223C006442B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A7DA3B1F4B2943006442B8 /* RHLANClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLANClient.h; sourceTree = "<group>"; };
+		83A7DA3C1F4B2943006442B8 /* RHLANClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLANClient.m; sourceTree = "<group>"; };
+		83A7DA3E1F4B32A8006442B8 /* RHLANHeartbeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLANHeartbeat.h; sourceTree = "<group>"; };
+		83A7DA3F1F4B32A8006442B8 /* RHLANHeartbeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLANHeartbeat.m; sourceTree = "<group>"; };
+		A9FB3AB71D6CC1E018B756E2 /* Pods-RHLANClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RHLANClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RHLANClient/Pods-RHLANClient.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A7DA1B1F4B223C006442B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D162EECD8AF89ED2123D034 /* libPods-RHLANClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EFE62A220B2096DCC58290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				060E49E8C097B5681D4A6482 /* libPods-RHLANClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A7DA151F4B223C006442B8 = {
+			isa = PBXGroup;
+			children = (
+				83A7DA201F4B223C006442B8 /* RHLANClient */,
+				83A7DA1F1F4B223C006442B8 /* Products */,
+				FF26F6CB52F3CDCA15952039 /* Pods */,
+				22EFE62A220B2096DCC58290 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83A7DA1F1F4B223C006442B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A7DA1E1F4B223C006442B8 /* RHLANClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A7DA201F4B223C006442B8 /* RHLANClient */ = {
+			isa = PBXGroup;
+			children = (
+				83A7DA241F4B223C006442B8 /* AppDelegate.h */,
+				83A7DA251F4B223C006442B8 /* AppDelegate.m */,
+				83A7DA271F4B223C006442B8 /* ViewController.h */,
+				83A7DA281F4B223C006442B8 /* ViewController.m */,
+				83A7DA2A1F4B223C006442B8 /* Main.storyboard */,
+				83A7DA2D1F4B223C006442B8 /* Assets.xcassets */,
+				83A7DA2F1F4B223C006442B8 /* LaunchScreen.storyboard */,
+				83A7DA321F4B223C006442B8 /* Info.plist */,
+				83A7DA211F4B223C006442B8 /* Supporting Files */,
+				83A7DA3B1F4B2943006442B8 /* RHLANClient.h */,
+				83A7DA3C1F4B2943006442B8 /* RHLANClient.m */,
+				83A7DA3E1F4B32A8006442B8 /* RHLANHeartbeat.h */,
+				83A7DA3F1F4B32A8006442B8 /* RHLANHeartbeat.m */,
+			);
+			path = RHLANClient;
+			sourceTree = "<group>";
+		};
+		83A7DA211F4B223C006442B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A7DA221F4B223C006442B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF26F6CB52F3CDCA15952039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9FB3AB71D6CC1E018B756E2 /* Pods-RHLANClient.debug.xcconfig */,
+				1088908B8E94BD5891F946A6 /* Pods-RHLANClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A7DA1D1F4B223C006442B8 /* RHLANClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A7DA351F4B223C006442B8 /* Build configuration list for PBXNativeTarget "RHLANClient" */;
+			buildPhases = (
+				6635DC1893EAE2677E07F19F /* [CP] Check Pods Manifest.lock */,
+				83A7DA1A1F4B223C006442B8 /* Sources */,
+				83A7DA1B1F4B223C006442B8 /* Frameworks */,
+				83A7DA1C1F4B223C006442B8 /* Resources */,
+				5A510E8B8CD30DCD49B734DC /* [CP] Embed Pods Frameworks */,
+				6A0B89FAABDEC9AF2E26D19D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHLANClient;
+			productName = RHLANClient;
+			productReference = 83A7DA1E1F4B223C006442B8 /* RHLANClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A7DA161F4B223C006442B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhuruhong;
+				TargetAttributes = {
+					83A7DA1D1F4B223C006442B8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83A7DA191F4B223C006442B8 /* Build configuration list for PBXProject "RHLANClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A7DA151F4B223C006442B8;
+			productRefGroup = 83A7DA1F1F4B223C006442B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A7DA1D1F4B223C006442B8 /* RHLANClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A7DA1C1F4B223C006442B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A7DA311F4B223C006442B8 /* LaunchScreen.storyboard in Resources */,
+				83A7DA2E1F4B223C006442B8 /* Assets.xcassets in Resources */,
+				83A7DA2C1F4B223C006442B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A510E8B8CD30DCD49B734DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RHLANClient/Pods-RHLANClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6635DC1893EAE2677E07F19F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0B89FAABDEC9AF2E26D19D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RHLANClient/Pods-RHLANClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A7DA1A1F4B223C006442B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A7DA3D1F4B2943006442B8 /* RHLANClient.m in Sources */,
+				83A7DA291F4B223C006442B8 /* ViewController.m in Sources */,
+				83A7DA401F4B32A8006442B8 /* RHLANHeartbeat.m in Sources */,
+				83A7DA261F4B223C006442B8 /* AppDelegate.m in Sources */,
+				83A7DA231F4B223C006442B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83A7DA2A1F4B223C006442B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A7DA2B1F4B223C006442B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83A7DA2F1F4B223C006442B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A7DA301F4B223C006442B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A7DA331F4B223C006442B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83A7DA341F4B223C006442B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A7DA361F4B223C006442B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FB3AB71D6CC1E018B756E2 /* Pods-RHLANClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RHLANClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zrh.RHLANClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83A7DA371F4B223C006442B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1088908B8E94BD5891F946A6 /* Pods-RHLANClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RHLANClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zrh.RHLANClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A7DA191F4B223C006442B8 /* Build configuration list for PBXProject "RHLANClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A7DA331F4B223C006442B8 /* Debug */,
+				83A7DA341F4B223C006442B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A7DA351F4B223C006442B8 /* Build configuration list for PBXNativeTarget "RHLANClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A7DA361F4B223C006442B8 /* Debug */,
+				83A7DA371F4B223C006442B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A7DA161F4B223C006442B8 /* Project object */;
+}
