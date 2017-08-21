@@ -111,6 +111,8 @@ withFilterContext:(id)filterContext
     NSLog(@"address: %@", host);
     NSLog(@"RECV: %@", port);
     
+    [[RHSocketService sharedInstance] stopService];
+    
     RHSocketDelimiterDecoder *decoder = [[RHSocketDelimiterDecoder alloc] init];
     decoder.delimiterData = [@"0" dataUsingEncoding:NSUTF8StringEncoding];
     

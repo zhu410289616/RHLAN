@@ -87,7 +87,7 @@
 
 - (void)udpSocket:(GCDAsyncUdpSocket *)sock didReceiveData:(NSData *)data fromAddress:(NSData *)address withFilterContext:(id)filterContext
 {
-    NSLog(@"didReceiveData: [%@] - %@", address, data);
+    NSLog(@"udpSocket didReceiveData: [%@] - %@", address, data);
     
     // send current ip to client
     NSString *msg = [NSString stringWithFormat:@"%ld", _tcpPort];
@@ -111,6 +111,24 @@
     @synchronized (_connectedSockets) {
         [_connectedSockets removeObject:sock];
     }
+}
+
+- (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag
+{
+    NSString *host = [sock connectedHost];
+    UInt16 port = [sock connectedPort];
+    NSString *msg = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    NSLog(@"[%@:%hu] didReadData length: %lu, msg: %@", host, port, (unsigned long)data.length, msg);
+    // Echo message back to client
+    [sock writeData:data withTimeout:-1 tag:0];
+}
+
+- (void)socket:(GCDAsyncSocket *)sock didWriteDataWithTag:(long)tag
+{
+    NSString *host = [sock connectedHost];
+    UInt16 port = [sock connectedPort];
+    NSLog(@"[%@:%hu] didWriteDataWithTag: %ld", host, port, tag);
+    [sock readDataWithTimeout:-1 tag:tag];
 }
 
 @end
